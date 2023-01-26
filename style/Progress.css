@@ -1,0 +1,15 @@
+body{
+    background-color: aliceblue;
+}
+thead{
+    background-color: #B09C66 !important;
+}
+.btn-info{
+    background-color: #B09C66 !important;
+    border-color: #B09C66 !important;
+    
+}
+.table-responsive{
+    background-color: white;
+    border-radius: 10px;
+}
