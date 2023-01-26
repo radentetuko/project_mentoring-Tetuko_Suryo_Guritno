@@ -32,6 +32,10 @@ if ($_SESSION['status_login'] != true) {
             <button type="button" class="btn btn-info mb-3" data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop">Tambah Data<i class="bi bi-plus-circle ms-1"></i></button>
 
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info" type="submit">Search</button>
+            </form>
 
             <!-- Modal Tambah -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -96,7 +100,7 @@ if ($_SESSION['status_login'] != true) {
 
 
 
-            <div class="table-responsive">
+            <div class="table-responsive mb-3">
                 <table class="table align-middle">
                     <thead>
                         <tr>
@@ -255,6 +259,20 @@ if ($_SESSION['status_login'] != true) {
                     </tbody>
                 </table>
             </div>
+
+            <nav aria-label="Page navigation example ">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </main>
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
